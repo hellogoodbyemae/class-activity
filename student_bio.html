@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Student Bio</title>
-    </head>
-    <body>
-        <h1>Student Bio</h1>
-        <br>
+<html lang="en-us">
 
-        <h2>Margaret Egner</h2>
-        <br>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
 
-        <img src="https://place-hold.it/200" alt="image holder"/>
-        <br>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <p>I am 32 years old. I like to be outside. I have two dogs and one cat. I am a graphic designer.</p>
-        <p>I do not like to talk about myself that much!</p>
-        <br>
+</head>
 
-        <h2>Contact Info</h3>
-        <br>
+<body>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-        <ul>
-            <li><strong>Email:</strong> <a href="#">hellogoodbyemae@gmail.com</a></li>
-            <li><strong>Github:</strong> <a href="#">hellogoodbymae</a></li>
-            <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-        </ul>
-        
-        <!-- <a href="https://www.google.com" target="blank">Open Google</a>
-        <br>
-        <strong><a href="https://www.youtube.com" target="blank">Boldly Surf Youtube</a></strong>
-        <br>
-        <a href="#">Placeholder</a> -->
-    </body>
+  <!-- Use classes for  -->
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Margaret Mae Egner</h2>
+
+      <img id="bio-image" src="https://placehold.it/200x200" alt="Mae">
+
+      <p>I am an amateur photographer. I have two dogs, and one cat. I love music & being outside. Visit my instagram at <a href="http://www.instagram.com/maedaemandown">maedaemandown</a></p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">hellogoodbyemae@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">hellogoodbyemae</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+
 </html>
